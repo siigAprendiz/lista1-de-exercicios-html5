@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* Reset de estilos para garantir consistência entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "IBM Plex Sans", sans-serif; /* Fonte padrão */
+    font-size: 16px; /* Tamanho base de fonte */
+    line-height: 1.6; /* Espaçamento entre linhas */
+}
+
+.conteudo {
+    padding: 5px;
+    /* background-color: #555555aa; */
+    width: 50vw;
+    height: 100%;
+    margin: auto;
+}
+
+.titulo {
+    margin-top: 20px;
+    /* background-color: aqua; */
+    width: 35vw;
+    margin: auto;
+}
+
+h1 {
+    /* color: #E0115F; */
+    padding: 5px;
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    text-decoration: underline;
+    border-style: double;
+    border-width: 10px;
+}
+
+img {
+    display: block; /* Evitar espaço extra abaixo das imagens */
+    margin: 0 auto 20px; /* Centralizar e adicionar espaçamento */
+    max-width: 100%; /* Garantir que as imagens não ultrapassem o contêiner */
+}
+
+p {
+    margin: 20px;
+    text-align: justify;
+}
+
+.subtitulo {
+    padding: 2px;
+    width: 100%;
+}
+
+h2 {
+    margin-top: 30px; /* Espaçamento acima dos títulos */
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px; /* Espaçamento entre itens da lista */
+    margin-left: 60px;
+}
+
+#ads {
+    color: red;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.navigate {
+    /* background-color: red; */
+    margin-left: 20px;
+}
+
+.navigate a {
+    text-decoration: none;
+}
